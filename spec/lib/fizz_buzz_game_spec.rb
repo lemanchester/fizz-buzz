@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Fuzz do
+describe FizzBuzzGame do
 
   describe "#play" do
 

@@ -1,4 +1,4 @@
-class Fuzz
+class FizzBuzzGame
 
   def initialize(number)
     @number = number
@@ -7,5 +7,6 @@ class Fuzz
   def play
     (1..@number).to_a
   end
+
 
 end
