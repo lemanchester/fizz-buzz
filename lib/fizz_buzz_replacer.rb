@@ -7,6 +7,17 @@ class FizzBuzzReplacer
     @list = numbers
   end
 
+  def run
+    special_case.fizz.buzz
+  end
+
+  protected
+
+  def special_case
+    replace("Fizz Buzz", 15)
+    self
+  end
+
   def buzz
     replace("Buzz", 5)
     self
@@ -16,8 +27,6 @@ class FizzBuzzReplacer
     replace("Fizz", 3)
     self
   end
-
-  protected
 
   def replace(replacer, divisible)
     list.map! do |n|
