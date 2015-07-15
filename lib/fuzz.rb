@@ -5,7 +5,7 @@ class Fuzz
   end
 
   def play
-    []
+    (1..@number).to_a
   end
 
 end

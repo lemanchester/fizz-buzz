@@ -10,6 +10,8 @@ describe Fuzz do
 
       it { expect(subject.play).to be_an Array }
 
+      it { expect(subject.play.size).to be_eql 10 }
+
     end
   end
 
