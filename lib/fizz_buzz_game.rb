@@ -5,18 +5,7 @@ class FizzBuzzGame
   end
 
   def play
-    # WIP
-    @list
-  end
-
-  private
-
-  def buzz
-    FizzBuzzReplacer.new(@list).buzz
-  end
-
-  def fizz
-    FizzBuzzReplacer.new(@list).fizz
+    FizzBuzzReplacer.new(@list).run.list
   end
 
 end
