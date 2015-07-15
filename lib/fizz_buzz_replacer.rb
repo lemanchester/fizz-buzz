@@ -17,7 +17,11 @@ class FizzBuzzReplacer
 
   def replace(replacer, divisible)
     @numbers.map do |n|
-      replacer if n % divisible
+      if n % divisible == 0
+        replacer
+      else
+        n
+      end
     end
   end
 
