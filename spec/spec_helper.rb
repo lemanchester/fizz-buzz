@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require "fizz_buzz_game"
-require "fizz"
+require "fizz_buzz_replacer"
 
 $: << File.expand_path('../../lib', __FILE__)
 
